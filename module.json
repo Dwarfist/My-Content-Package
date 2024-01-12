@@ -1,0 +1,32 @@
+{
+  "id": "content-package",
+  "title": "Content Package",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "description": "My package",
+  "authors": [
+    {
+      "name": "gLozeen",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "download":"https://drive.usercontent.google.com/download?id=1yaG9SPifZx8sOeFNi1kSijw-cyOMhVGP&export=download"
+  
+}
