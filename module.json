@@ -25,6 +25,7 @@
       }
     }
   ],
+  "download":"https://github.com/Dwarfist/My-Content-Package/blob/main/module.zip",
   "relationships": {
     "requires": [
       {
