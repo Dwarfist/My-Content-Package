@@ -9,8 +9,7 @@
   "description": "My package",
   "authors": [
     {
-      "name": "gLozeen",
-      "flags": {}
+      "name": "gLozeen"
     }
   ],
   "packs": [
@@ -19,14 +18,19 @@
       "label": "Scenes",
       "path": "packs/scenes",
       "type": "Scene",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
+      }
     }
   ],
-  "download":"https://github.com/Dwarfist/My-Content-Package/blob/main/module.zip"
-  
+  "relationships": {
+    "requires": [
+      {
+        "id": "public-brazenthrone-module",
+        "type": "module"
+      }
+    ]
+  }
 }
